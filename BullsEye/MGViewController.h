@@ -10,4 +10,6 @@
 
 @interface MGViewController : UIViewController
 
+- (IBAction)showAlert;
+
 @end
