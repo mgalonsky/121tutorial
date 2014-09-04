@@ -16,6 +16,8 @@
 {
     int _currentValue;
     int _targetValue;
+    int _score;
+    int _round;
 }
 
 - (void)viewDidLoad
@@ -29,10 +31,15 @@
     _targetValue = 1 + arc4random_uniform(100);
     _currentValue = 50;
     self.slider.value = _currentValue;
+    ++_round;
 }
 
 - (void)updateLabels {
     self.targetLabel.text = [NSString stringWithFormat:@"%d", _targetValue];
+    
+    self.scoreLabel.text = [NSString stringWithFormat:@"%d", _score];
+    
+    self.roundLabel.text = [NSString stringWithFormat:@"%d", _round];
 }
 
 - (void)didReceiveMemoryWarning
@@ -42,10 +49,12 @@
 }
 
 - (IBAction)showAlert {
-    NSString *message = [NSString stringWithFormat:
-                         @"The value of the slider is: %d\nThe target value is: %d",
-                         _currentValue, _targetValue];
     
+    int difference = abs(_targetValue - _currentValue);
+    int points = 100 - difference;
+    _score += points;
+    
+    NSString *message = [NSString stringWithFormat:@"You scored %d points", points];
     
     UIAlertView *alertView = [[UIAlertView alloc]
         initWithTitle:@"Hello, World!"
