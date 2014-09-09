@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F251F8519BECB3000AA4303 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F251F8419BECB3000AA4303 /* AboutViewController.m */; };
 		7F82563919B83BCB000979DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F82563819B83BCB000979DA /* Foundation.framework */; };
 		7F82563B19B83BCB000979DA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F82563A19B83BCB000979DA /* CoreGraphics.framework */; };
 		7F82563D19B83BCB000979DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F82563C19B83BCB000979DA /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7F251F8319BECB3000AA4303 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		7F251F8419BECB3000AA4303 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
 		7F82563519B83BCB000979DA /* BullsEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BullsEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F82563819B83BCB000979DA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7F82563A19B83BCB000979DA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -117,6 +120,8 @@
 				7F82564A19B83BCB000979DA /* Main.storyboard */,
 				7F82564D19B83BCB000979DA /* MGViewController.h */,
 				7F82564E19B83BCB000979DA /* MGViewController.m */,
+				7F251F8319BECB3000AA4303 /* AboutViewController.h */,
+				7F251F8419BECB3000AA4303 /* AboutViewController.m */,
 				7F82565019B83BCB000979DA /* Images.xcassets */,
 				7F82563F19B83BCB000979DA /* Supporting Files */,
 			);
@@ -252,6 +257,7 @@
 			files = (
 				7F82564919B83BCB000979DA /* MGAppDelegate.m in Sources */,
 				7F82564F19B83BCB000979DA /* MGViewController.m in Sources */,
+				7F251F8519BECB3000AA4303 /* AboutViewController.m in Sources */,
 				7F82564519B83BCB000979DA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -461,6 +467,7 @@
 				7F82566919B83BCB000979DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7F82566A19B83BCB000979DA /* Build configuration list for PBXNativeTarget "BullsEyeTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +476,7 @@
 				7F82566C19B83BCB000979DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
