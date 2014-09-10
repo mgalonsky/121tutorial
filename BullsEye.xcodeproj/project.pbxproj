@@ -22,6 +22,7 @@
 		7F82565A19B83BCB000979DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F82563C19B83BCB000979DA /* UIKit.framework */; };
 		7F82566219B83BCB000979DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7F82566019B83BCB000979DA /* InfoPlist.strings */; };
 		7F82566419B83BCB000979DA /* BullsEyeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F82566319B83BCB000979DA /* BullsEyeTests.m */; };
+		7FC1C2A019C011C700F845AD /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = 7FC1C29F19C011C700F845AD /* BullsEye.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		7F82565F19B83BCB000979DA /* BullsEyeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BullsEyeTests-Info.plist"; sourceTree = "<group>"; };
 		7F82566119B83BCB000979DA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7F82566319B83BCB000979DA /* BullsEyeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BullsEyeTests.m; sourceTree = "<group>"; };
+		7FC1C29F19C011C700F845AD /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = BullsEye.html; path = "../../The iOS Apprentice 1 - Getting Started/Resources/BullsEye.html"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 		7F82563E19B83BCB000979DA /* BullsEye */ = {
 			isa = PBXGroup;
 			children = (
+				7FC1C29F19C011C700F845AD /* BullsEye.html */,
 				7F82564719B83BCB000979DA /* MGAppDelegate.h */,
 				7F82564819B83BCB000979DA /* MGAppDelegate.m */,
 				7F82564A19B83BCB000979DA /* Main.storyboard */,
@@ -235,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F82565119B83BCB000979DA /* Images.xcassets in Resources */,
+				7FC1C2A019C011C700F845AD /* BullsEye.html in Resources */,
 				7F82564319B83BCB000979DA /* InfoPlist.strings in Resources */,
 				7F82564C19B83BCB000979DA /* Main.storyboard in Resources */,
 			);
